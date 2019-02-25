@@ -1,0 +1,113 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+aside{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url('dogs.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+aside h2{
+    color:black;
+    font-family:Verdana;
+
+}
+base{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('back.png');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('dogs4.png');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url('ll.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+.adp{
+    box-sizing: border-box;
+    color:blue;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    padding:45px;
+    background-color:rgb(114, 219, 105);
+    top: 10%;
+    left: 40%;
+}
+canvas{
+    
+}
+.about1{
+    
+color:black;
+padding:5px 20px;
+font-family: Verdana;
+font-size: 25px;
+padding:20px;
+margin:20px;
+}
+
+.nav-menu{
+    float:right;
+    margin:30px;
+    list-style:none;
+}
+.nav-menu li{    
+display:inline-block;
+    
+}
+.nav-menu li a{
+
+color:plum;
+padding:5px 20px;
+font-family: Verdana;
+
+}
+.navbtn{
+    
+    background-color:rgb(173, 93, 189)
+}
+.nav-menu li a:hover{
+    
+    border:3px solid white;
+    background-color:rgb(173, 93, 189)
+
+
+}
+.tagline{
+    position:absolute;
+    margin-left:0;
+    margin-top:6px;
+    width:800px;
+
+}
+h1{
+    color:white;
+    font-size:35px;
+    font-family:Verdana;
+    text-align:center;
+    margin-top:400px;
+}
+.adopt{
+    margin-top:30px;
+    margin-left:500px;
+
+}
+.btn{
+    color:yellow;
+    border-color:red;
+    border:2px solid white;
+    padding:10px;
+    text-decoration: none;
+}
